@@ -1,0 +1,104 @@
+.img {
+  width: 200px;
+  height: 150px;
+  margin: 15px;
+}
+
+.p {
+  font-size: 25px;
+  color: red;
+}
+
+.a {
+  text-decoration: none;
+  color: blue;
+}
+
+.container .row .active-two .writing p {
+  color: #c1bbbb;
+}
+
+.container .row .active-two .writing h1 {
+  font-size: 22px;
+}
+
+.container .row .active-two .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 15px;
+}
+
+.container .row .active-two .info .icons {
+  color: #c1bbbb;
+}
+
+.container .row .active-two .price {
+  font-size: 25px;
+  font-weight: 600;
+  color: orange;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container .row .active-two .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.container .row .active-two .image i {
+  margin-top: 5px;
+}
+
+.container .row .active-two .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .row .active-two .product .left ul {
+  list-style: none;
+}
+
+.container .row .active-two .product .right ul {
+  list-style: none;
+}
+
+.container .row .active-two .product .right ul li:first-child {
+  color: orange;
+}
+
+.container .row .active-two .quantity p {
+  color: #b4b3b3;
+}
+
+.container .row .active-two .quantity input {
+  width: 80px;
+}
+
+.container .row .active-two .buttons {
+  margin-top: 20px;
+  gap: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: none;
+}
+
+.container .row .active-two .buttons .one {
+  width: 150px;
+  height: 50px;
+  background-color: orange;
+  color: white;
+  border: none;
+}
+
+.container .row .active-two .buttons .two {
+  width: 150px;
+  height: 50px;
+  color: black;
+  border: none;
+  background-color: lightcyan;
+}
+/*# sourceMappingURL=style.css.map */

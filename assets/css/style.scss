@@ -1,0 +1,99 @@
+.img{
+    width: 200px;
+    height: 150px;
+    margin: 15px;
+}
+.p{
+    font-size: 25px;
+    color: red;
+}
+.a{
+    text-decoration: none;
+    color :blue;
+}
+
+
+.container{
+    .row{       
+        .active-two{
+            .writing{
+             p{
+                color: rgb(193, 187, 187);
+             }
+             h1{
+                 font-size: 22px;
+             }
+            }
+            .info{
+                display: flex;
+                gap: 15px;
+                .icons{
+                    color: rgb(193, 187, 187);
+                    
+                }
+            }
+            .price{
+              font-size: 25px;
+              font-weight: 600;
+              color: orange;
+              font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+            }
+            .image{
+                i{
+                    margin-top: 5px;
+                }
+                display: flex;
+                gap: 10px;
+            }
+            .product{
+               display: flex; 
+             
+               .left{
+                   ul{
+                       list-style: none;
+                   }
+               }
+               .right{
+                ul{
+                    list-style: none;
+                    li:first-child{
+                       color: orange;
+                    }
+                }
+            }
+
+               
+            }
+            .quantity{
+                p{
+                    color: rgb(180, 179, 179);
+                   
+                }
+                input{
+                    width: 80px;
+                }
+            }
+            .buttons{
+                margin-top: 20px;
+                gap: 30px;
+                display: flex;
+                border: none;
+                
+                .one{
+                    width: 150px;
+                    height: 50px;
+                    background-color: orange;
+                    color: white;
+                    border: none;
+                }
+                .two{
+                    width: 150px;
+                    height: 50px;
+                    color: black;
+                    border: none;
+                    background-color: lightcyan;
+                }
+            }
+        }
+    }
+}   
